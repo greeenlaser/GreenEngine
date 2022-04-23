@@ -1,0 +1,3 @@
+C:/Users/Sander/Documents/cppProjects/Calculator/Build/CMakeFiles/Application.dir
+C:/Users/Sander/Documents/cppProjects/Calculator/Build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Sander/Documents/cppProjects/Calculator/Build/CMakeFiles/ZERO_CHECK.dir
