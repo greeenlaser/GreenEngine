@@ -4,6 +4,7 @@
     <ClCompile Include="C:\Users\Sander\Documents\cppProjects\Calculator\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\glad.c" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Sander\Documents\cppProjects\Calculator\CMakeLists.txt" />
