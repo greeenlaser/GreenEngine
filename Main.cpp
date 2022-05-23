@@ -29,9 +29,9 @@ int main()
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
     //create a window
-    GLFWwindow* window = glfwCreateWindow(width, height, "GreenEngine Alpha 0.0.1", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(width, height, "GreenEngine Alpha 0.0.1_indev1", NULL, NULL);
 
-    cout << "Launched Debug window for GreenEngine.";
+    cout << "Launched Debug window for GreenEngine Alpha 0.0.1_indev1.";
 
     //set context as window and initialize GLAD
     glfwMakeContextCurrent(window);

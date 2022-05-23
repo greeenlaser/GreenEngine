@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "GreenEngine"
-#define MyAppVersion "0.0.1_indev"
+#define MyAppVersion "0.0.1_indev1"
 #define MyAppPublisher "GreenEngine"
 #define MyAppURL "https://www.greeenlaser.itch.io"
 #define MyAppExeName "GreenEngine.exe"
@@ -13,7 +13,7 @@
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{349E9387-1AD4-4237-A9F7-37A70928B7EB}
+AppId={{4C5C523E-FB40-4E18-BA86-F722F9C22A6B}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
