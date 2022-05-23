@@ -32,6 +32,7 @@
     <ProjectGuid>{6a484b64-17e3-4e08-be9b-2ab5eefe2b77}</ProjectGuid>
     <RootNamespace>Build</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>GreenEngine</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

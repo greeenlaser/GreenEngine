@@ -1,1 +1,1 @@
-C:\Users\sande\Documents\GreenEngine\Build\x64\Release\Build.exe
+C:\Users\sande\Documents\GreenEngine\Build\x64\Release\GreenEngine.exe
