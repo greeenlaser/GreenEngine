@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Sander/Documents/cppProjects/Calculator
+# Install script for directory: C:/Users/sande/Documents/GreenEngine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Sander/Documents/cppProjects/Calculator/Build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/sande/Documents/GreenEngine/Build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

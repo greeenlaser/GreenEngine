@@ -2,18 +2,18 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "GreenEngine"
-#define MyAppVersion "0.1"
-#define MyAppPublisher "GreenLaser"
-#define MyAppURL "https://github.com/greeenlaser"
-#define MyAppExeName "Application.exe"
-#define MyAppAssocName MyAppName + ""
-#define MyAppAssocExt ".gre"
+#define MyAppVersion "Alpha 0.0.1"
+#define MyAppPublisher "GreenEngine"
+#define MyAppURL "https://www.greeenlaser.itch.io"
+#define MyAppExeName "Build.exe"
+#define MyAppAssocName "greenengine"
+#define MyAppAssocExt ".ge"
 #define MyAppAssocKey StringChange(MyAppAssocName, " ", "") + MyAppAssocExt
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{284A5670-B9A4-4FC6-A81E-FC9AD2FCD8EB}
+AppId={{F1A3332A-C795-4826-99B2-571E7C25A788}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -27,7 +27,7 @@ DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputBaseFilename=GreenEngine 0.1 Setup
+OutputBaseFilename=GreenEngine Installer
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -39,7 +39,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\Sander\Documents\cppProjects\Calculator\Build\Release\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\sande\Documents\GreenEngine\Build\x64\Release\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]

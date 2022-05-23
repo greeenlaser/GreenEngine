@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.23.1)  #CMake version check
-project(Application)               	#Create project "Application"
+project(Application)               	                           #Create project "Application"
 
 #Add main.cpp file of project root directory as source file
 set(SOURCE_FILES Main.cpp)
